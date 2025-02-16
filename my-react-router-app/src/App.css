@@ -1,0 +1,57 @@
+*{
+  font-family: "Tinos", serif;
+  font-size:18px;
+}
+body{
+  background-image: url('../public/background.jpeg');
+  background-size: cover; /* Фон будет заполнять весь экран, сохраняя пропорции */
+  background-position: center; /* Центрируем изображение */
+  background-repeat: no-repeat; /* Изображение не будет повторяться */
+  
+}
+.navbar{
+  z-index: 10; 
+}
+
+.p-4{
+  padding-top:5px !important;
+}
+
+#main-page{
+  margin-top:0 !important;
+}
+
+.page-container{
+  max-width:1000px;
+  margin:0 auto;
+  padding:20px;
+  background-color: white;
+}
+.container-fluid{
+  justify-content:flex-start !important;
+  gap:15px;
+}
+
+#title-container{
+  display:flex;
+}
+#h1-title{
+  margin-left:20px;
+}
+
+#quest-image{
+  width:200px;
+}
+
+#good-luck-container{
+  display: block;   /* Убирает отступы внизу изображения */
+  margin-left: auto; /* Центрирует по горизонтали */
+  margin-right: auto; /* Центрирует по горизонтали */
+  padding:20px;
+  max-width:500px;
+}
+
+#good-luck{
+  max-width: 100%; /* Изображение не выйдет за пределы родительского контейнера */
+  height: auto; /* Сохраняет пропорции */
+}
